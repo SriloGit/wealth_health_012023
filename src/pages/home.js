@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Modal } from "cj_modal_plugin"
 //import Modal from "cj_hrnet_modal_plugin"
 import Form from "../components/form";
+import logo from "../assets/logo.jpg"
 
 function Home() {
   useEffect(() => {
@@ -19,6 +20,11 @@ function Home() {
   return (
     <main>
       <div className="title">
+        <img
+        className="main-logo-image"
+        src={logo}
+        alt="Wealth Health Logo"
+      />
         <h1>HRnet</h1>
       </div>
       <div className="container">
