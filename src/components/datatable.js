@@ -1,4 +1,4 @@
-import { DataGrid, GridToolbar } from "@mui/x-data-grid";
+import { DataGrid } from "@mui/x-data-grid";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 import moment from "moment";
@@ -8,7 +8,6 @@ export default function Datatable({ rows }) {
   const [displayedRows, setDisplayedRows] = useState(rows);
 
   const sortDate = (v1, v2) => moment(v1).diff(moment(v2));
-
   const columns = [
     { field: "firstName", headerName: "First Name" },
     { field: "lastName", headerName: "Last name" },
@@ -63,7 +62,6 @@ export default function Datatable({ rows }) {
         columns={columns}
         pageSize={pageSize}
         rowsPerPageOptions={[10, 25, 50, 100]}
-        components={{ Toolbar: GridToolbar }}
         onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
         getRowClassName={(params) =>
           (params.indexRelativeToCurrentPage + 1) % 2 === 0 ? "even" : "odd"
