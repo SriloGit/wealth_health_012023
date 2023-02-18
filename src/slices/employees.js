@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const initialState = []
 
 const employeesSlice = createSlice({
     name: "employees",
-    initialState: [],
+    initialState,
     reducers: {
         addEmployees: (state, action) => {
             state.push({...action.payload, id: state.length});

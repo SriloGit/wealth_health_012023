@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 //import Modal from "../components/modal/modal";
 import { Modal } from "cj_modal_plugin"
-//import Modal from "cj_hrnet_modal_plugin"
 import Form from "../components/form";
 import logo from "../assets/logo.jpg"
 

@@ -76,3 +76,12 @@ label:not([class^="Mui"]) {
 .MuiDataGrid-row.odd {
   background-color: #f9f9f9;
 }
+
+.modal{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(147, 173, 24);
+}
