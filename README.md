@@ -1,3 +1,19 @@
+## Presentation
+Hrnet is an application to follow the daily progress through analytics dashboard.
+
+## Prerequisites
+NPM 
+React (v18.2.0)   
+React Router Dom (v6.8.0)  
+React Redux (v8.0.5)
+MUI (v5.11.6)
+cj_modal_plugin (v1.0.2)
+Moment (v2.29.4)
+Redux (v4.2.0)
+
+## Installing the app
+Clone the repository : https://github.com/SriloGit/wealth_health_012023.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
