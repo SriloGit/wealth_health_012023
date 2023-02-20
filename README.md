@@ -1,5 +1,5 @@
 ## Presentation
-Hrnet is an application to follow the daily progress through analytics dashboard.
+Hrnet is an application to manage employee for the Wealth Health company.
 
 ## Prerequisites
 NPM 
